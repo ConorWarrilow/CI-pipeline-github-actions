@@ -41,7 +41,10 @@ def send_data_to_destination(data: List[Dict[str, Any]]):
 def run() -> None:
     send_data_to_destination(enrich_user_data(get_user_data()))
 
-
+#random comment
 if __name__ == '__main__':
     run()
+
+
+
 
